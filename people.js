@@ -11,3 +11,14 @@ export default function PplList(){
     );
     return <ul>{listItems}</ul>;
 }
+const friends=[
+    'Raju:Rajempet',
+    'Vinay:vijayawada',
+    'Ameer:Hyderabad'
+];
+export default function Myfriends(){
+    const friendList=friends.map(friend =>
+        <li>{friend}</li>
+    );
+    return <ul>{friendList}</ul>
+}

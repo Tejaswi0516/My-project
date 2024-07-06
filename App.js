@@ -1,18 +1,22 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-//import Hello from './mycomp.js';
-//import PackingList from './conditional.js';
-import PplList from './people.js';
-function App() {
+//import Hello from './mydetails.js';
+//import {PplList,Myfriends} from './people.js';
+import BtnEvents from "./BtnEvents";
+import Gallery from "./stateUsest";
+import TaskApp from './Task';
+
+
+export default function App() {
   return (
     <>
-    <div className="App">
-      <h1>Hello World</h1>
-      <hr />
-      <PplList />
-      </div>
-      </>
+    <BtnEvents />
+    <hr />
+    <Gallery />
+    <hr />
+    <TaskApp />
+    </>
   );
 }
 
-export default App;
+
